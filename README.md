@@ -6,7 +6,7 @@ This project demonstrates how to perform web scraping using Python to extract ta
 
 The script scrapes the list of the largest companies in the United States by revenue from Wikipedia, processes the table data using BeautifulSoup and Pandas, and exports the cleaned dataset into a CSV file.
 
----
+
 
 ## Project Objective
 
@@ -15,7 +15,6 @@ The script scrapes the list of the largest companies in the United States by rev
 * Convert scraped data into a structured Pandas DataFrame.
 * Save the extracted data into a CSV file for further analysis.
 
----
 
 ## Technologies Used
 
@@ -25,7 +24,6 @@ The script scrapes the list of the largest companies in the United States by rev
 * Pandas
 * Jupyter Notebook
 
----
 
 ## Project Structure
 
@@ -35,7 +33,6 @@ The script scrapes the list of the largest companies in the United States by rev
 └── README.md             # Project documentation
 ```
 
----
 
 ## Website Scraped
 
@@ -43,7 +40,7 @@ Data Source:
 
 * Wikipedia – List of Largest Companies in the United States by Revenue
 
----
+
 
 ## Features
 
@@ -53,7 +50,7 @@ Data Source:
 * Stores data in a Pandas DataFrame.
 * Exports the dataset into CSV format.
 
----
+
 
 ## Installation
 
@@ -63,7 +60,7 @@ Install the required libraries before running the project:
 pip install beautifulsoup4 requests pandas
 ```
 
----
+
 
 ## How to Run the Project
 
@@ -87,7 +84,7 @@ web scraping.ipynb
 Companies.csv
 ```
 
----
+
 
 ## Sample Workflow
 
@@ -124,7 +121,7 @@ table = soup.find('table', class_='wikitable sortable')
 df.to_csv('Companies.csv', index=False)
 ```
 
----
+
 
 ## Output
 
@@ -137,7 +134,7 @@ The final output is a CSV file containing company details such as:
 * Number of Employees
 * Headquarters
 
----
+
 
 ## Learning Outcomes
 
@@ -149,7 +146,7 @@ Through this project, you will learn:
 * Data cleaning with Pandas
 * Exporting datasets to CSV
 
----
+
 
 ## Future Improvements
 
@@ -159,7 +156,7 @@ Through this project, you will learn:
 * Store data in a database.
 * Build visualizations from the scraped data.
 
----
+
 
 ## Author
 
